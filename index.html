@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Search | Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+<div class="header">
+    <div class="hnav">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Photography Logo">
+            </a>
+          </div>
+          <div id="navbar3" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+      </nav>
+    </div>
+</div>
+<div class="content-main">
+    <div class="jumbotron">
+        <div class="container text-center">
+            <form id="fsearch">                <div class="input-group">
+                  <input type="text" class="form-control imgsearch" placeholder="Search" name="search">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-success btn-md">Search</button>      
+                </div>
+                </div>
+              </form>
+      
+        </div>
+      </div>
+      <div class="container-fluid bg-3 text-center">   
+       
+        <h3>Editor's Choice</h3><br>
+        <div class="singleimg"></div>
+        <div class="editorchoice"> 
+    </div>
+   
+</div>
+</div>
+<div class="footer">
+    <footer class="container-fluid text-center">
+        <p>&copy 2023 Project Three</p>
+      </footer>
+</div>
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>
